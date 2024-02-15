@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,span,p,a{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+/* TOP PART START */
+.top-part{
+    background-color: aqua;
+    padding-bottom: 8px;
+}
+
+.icon_bar ul li{
+    float: left;
+    padding: 0px 10px;
+}
+
+.icon_bar ul li a{
+    font-size: 20px;
+    color: black;
+}
+
+.menu ul li{
+    float: left;
+    padding: 0px 10px;
+}
+
+.menu ul li a{
+    color: black;
+}
+
+/* HEADER PART START */
+.navbar-nav .nav-item .nav-link{
+    color: black;
+}
+
+/* BANNER PART START */
+#banner{
+    background-image: url('../images/hospital.png');
+    background-size: cover;
+    padding: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner_content{
+    text-align: center;
+}
+
+.banner_content h3{
+    font-size: 34px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.banner_content p{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 10px;   
+}
